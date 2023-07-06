@@ -70,6 +70,15 @@ a {
     line-height: 1.9;
     font-size: 15px;
 }
+@media (max-width:450px) {
+    .main-title {
+        margin: 0 0 20px;
+    }
+    .main-title + p {
+        line-height: 1.5;
+        font-size: 13px;
+    }
+}
 /* End Component */
 /* Start Header */
 .header {
@@ -193,6 +202,14 @@ a {
 @media (max-width:550px) {
     .landing .text {
         max-width: 450px;
+    }
+    .landing .text h1 {
+        font-size: 19px;
+    }
+    .landing .text p {
+        line-height: 1.4;
+        font-size: 13px;
+        margin-bottom: 15px;
     }
 }
 .landing .text button {
@@ -574,6 +591,14 @@ a {
     line-height: 1.7;
     font-weight: 400;
     font-size: 18px;
+
+}
+@media (max-width:450px) {
+    .about .text {
+        max-width: 450px;
+        line-height: 1.5;
+        font-size: 13px;
+    }
 }
 /* End About */
 /* Start Skills */
@@ -745,7 +770,7 @@ a {
     -o-transition: var(--main-transition);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
-@media (max-width:460px) {
+@media (max-width:450px) {
     .contact .social a {
         margin-left: 10px;
         padding: 10px;
