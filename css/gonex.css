@@ -76,6 +76,7 @@ a {
     background-color: #161718;
     position: fixed;
     width: 100%;
+    /* width: 410px; */
     top: 1px;
     z-index: 1080;
 }
@@ -191,7 +192,7 @@ a {
 }
 @media (max-width:550px) {
     .landing .text {
-        width: 450px;
+        max-width: 450px;
     }
 }
 .landing .text button {
