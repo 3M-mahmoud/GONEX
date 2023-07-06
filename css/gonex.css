@@ -745,6 +745,12 @@ a {
     -o-transition: var(--main-transition);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+@media (max-width:460px) {
+    .contact .social a {
+        margin-left: 10px;
+        padding: 10px;
+    }
+}
 .contact .social a:hover {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
